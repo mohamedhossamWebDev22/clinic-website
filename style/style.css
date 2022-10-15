@@ -35,7 +35,7 @@ body .content .first, html .content .first {
   background-image: url("../imgs/img1.png");
   background-repeat: no-repeat;
   backbackground-attachment: fixed;
-  background-size: 100%;
+  background-size: 100% 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,5 +43,12 @@ body .content .first, html .content .first {
   height: 100vh;
 }
 body .content .first h3, html .content .first h3 {
+  color: rgb(63, 80, 90);
   font-family: sans-serif;
+  font-size: 20px;
+}
+body .content .first p, html .content .first p {
+  color: rgb(63, 80, 90);
+  font-family: sans-serif;
+  font-size: 15px;
 }/*# sourceMappingURL=style.css.map */
