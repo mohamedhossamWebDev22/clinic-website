@@ -103,7 +103,6 @@ body .content .dc-cl, html .content .dc-cl {
 }
 body .content .two, html .content .two {
   display: flex;
-  flex-direction: row-reverse;
   align-items: center;
   margin-left: auto;
   padding: 4px 30px;
@@ -130,7 +129,6 @@ body .content .two .txt p, html .content .two .txt p {
 }
 body .content .three, html .content .three {
   display: flex;
-  flex-direction: row-reverse;
   align-items: center;
   margin-right: auto;
   padding: 4px 30px;
@@ -205,4 +203,27 @@ body .content #about .down, html .content #about .down {
   text-align: center;
   color: white;
   font-family: sans-serif;
+}
+
+@media (max-width: 600px) {
+  .two {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .two img {
+    width: 180px;
+  }
+  .three {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .three img {
+    width: 180px;
+  }
 }/*# sourceMappingURL=style.css.map */

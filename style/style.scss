@@ -105,7 +105,6 @@ body, html{
 
         .two{
             display: flex;
-            flex-direction: row-reverse;
             align-items: center;
 
             margin-left: auto;
@@ -140,7 +139,6 @@ body, html{
         }
         .three{
             display: flex;
-            flex-direction: row-reverse;
             align-items: center;
 
             margin-right: auto;
@@ -241,6 +239,36 @@ body, html{
 
                 font-family: $engF;
             }
+        }
+    }
+}
+
+
+@media (max-width: 600px) {
+    .two{
+        width: 100%;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        display: flex;
+        flex-direction: column-reverse;
+
+        img{
+            width: 180px;
+        }
+    }
+    .three{
+        width: 80%;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        display: flex;
+        flex-direction: column-reverse;
+
+        img{
+            width: 180px;
         }
     }
 }
