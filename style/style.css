@@ -31,6 +31,12 @@ body .content .nav .txt, html .content .nav .txt {
   align-items: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+body .content .space, html .content .space {
+  margin-bottom: 10%;
+}
+body .content .space2, html .content .space2 {
+  margin-bottom: 5%;
+}
 body .content .first, html .content .first {
   background-image: url("../imgs/img1.png");
   background-repeat: no-repeat;
@@ -50,5 +56,65 @@ body .content .first h3, html .content .first h3 {
 body .content .first p, html .content .first p {
   color: rgb(63, 80, 90);
   font-family: sans-serif;
+  font-size: 15px;
+}
+body .content .dc-cl, html .content .dc-cl {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 35px;
+  color: rgb(63, 80, 90);
+}
+body .content .two, html .content .two {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-left: auto;
+  padding: 4px 30px;
+  width: 50%;
+  background: rgb(0, 94, 189);
+  border-radius: 10px;
+  box-shadow: 0px 5px 8px black;
+}
+body .content .two img, html .content .two img {
+  border-radius: 10px;
+  padding: 2px 2px;
+}
+body .content .two .txt, html .content .two .txt {
+  color: white;
+  width: 100%;
+}
+body .content .two .txt h3, html .content .two .txt h3 {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+body .content .two .txt p, html .content .two .txt p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+}
+body .content .three, html .content .three {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-right: auto;
+  padding: 4px 30px;
+  width: 50%;
+  background: rgb(0, 94, 189);
+  border-radius: 10px;
+  box-shadow: 0px 5px 8px black;
+}
+body .content .three img, html .content .three img {
+  border-radius: 10px;
+  padding: 2px 2px;
+}
+body .content .three .txt, html .content .three .txt {
+  color: white;
+  width: 100%;
+}
+body .content .three .txt h3, html .content .three .txt h3 {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+body .content .three .txt p, html .content .three .txt p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 15px;
 }/*# sourceMappingURL=style.css.map */

@@ -47,6 +47,13 @@ body, html{
             }
         }
 
+        .space{
+            margin-bottom: 10%;
+        }
+        .space2{
+            margin-bottom: 5%;
+        }
+
         .first{
             @include bgCard('../imgs/img1.png');
 
@@ -70,6 +77,85 @@ body, html{
 
                 font-family: $engF;
                 font-size: $smallX;
+            }
+        }
+
+        .dc-cl{
+            text-align: center;
+
+            font-family: $engF;
+            font-size: $bigX + 15;
+
+            color:$color2;
+        }
+
+        .two{
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+
+            margin-left: auto;
+            // margin-right: auto;
+
+            padding: 4px 30px;
+            width: 50%;
+
+            background: $color1;
+            border-radius: 10px;
+
+            box-shadow: 0px 5px 8px black;
+            img{
+                border-radius: 10px;
+
+                padding: 2px 2px;
+            }
+            
+            .txt{
+                color: white;
+
+                width: 100%;
+                h3{
+                    font-family: $engF;
+                    font-size: $bigX;
+                }
+                p{
+                    font-family: $arabicFont;
+                    font-size: $smallX;
+                }
+            }
+        }
+        .three{
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+
+            margin-right: auto;
+
+            padding: 4px 30px;
+            width: 50%;
+
+            background: $color1;
+            border-radius: 10px;
+
+            box-shadow: 0px 5px 8px black;
+            img{
+                border-radius: 10px;
+
+                padding: 2px 2px;
+            }
+            
+            .txt{
+                color: white;
+
+                width: 100%;
+                h3{
+                    font-family: $engF;
+                    font-size: $bigX;
+                }
+                p{
+                    font-family: $arabicFont;
+                    font-size: $smallX;
+                }
             }
         }
     }
