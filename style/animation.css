@@ -1,0 +1,26 @@
+@-webkit-keyframes txtH {
+  50% {
+    font-size: 25px;
+  }
+  100% {
+    font-size: 20px;
+  }
+}
+@keyframes txtH {
+  50% {
+    font-size: 25px;
+  }
+  100% {
+    font-size: 20px;
+  }
+}
+@-webkit-keyframes txtD {
+  to {
+    font-size: 20px;
+  }
+}
+@keyframes txtD {
+  to {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=animation.css.map */

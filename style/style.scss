@@ -1,5 +1,6 @@
 @import './variables.scss';
 @import './functions.scss';
+@import './animation.scss';
 
 body, html{
     scroll-behavior: smooth;
@@ -48,6 +49,14 @@ body, html{
                 a{
                     color:white;
                     text-decoration: none;
+
+                    animation:normal txtD 2s;
+
+                    font-size: 20px;
+
+                    &:hover{
+                        animation:normal txtH 2s;
+                    }
                 }
             }
         }

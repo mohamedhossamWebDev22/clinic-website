@@ -1,3 +1,29 @@
+@-webkit-keyframes txtH {
+  50% {
+    font-size: 25px;
+  }
+  100% {
+    font-size: 20px;
+  }
+}
+@keyframes txtH {
+  50% {
+    font-size: 25px;
+  }
+  100% {
+    font-size: 20px;
+  }
+}
+@-webkit-keyframes txtD {
+  to {
+    font-size: 20px;
+  }
+}
+@keyframes txtD {
+  to {
+    font-size: 20px;
+  }
+}
 body, html {
   scroll-behavior: smooth;
 }
@@ -34,6 +60,13 @@ body .content .nav .txt, html .content .nav .txt {
 body .content .nav .txt a, html .content .nav .txt a {
   color: white;
   text-decoration: none;
+  -webkit-animation: normal txtD 2s;
+          animation: normal txtD 2s;
+  font-size: 20px;
+}
+body .content .nav .txt a:hover, html .content .nav .txt a:hover {
+  -webkit-animation: normal txtH 2s;
+          animation: normal txtH 2s;
 }
 body .content .space, html .content .space {
   margin-bottom: 15%;
