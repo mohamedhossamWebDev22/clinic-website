@@ -44,14 +44,19 @@ body, html{
                 align-items: center;
 
                 font-family: $arabicFont;
+
+                a{
+                    color:white;
+                    text-decoration: none;
+                }
             }
         }
 
         .space{
-            margin-bottom: 10%;
+            margin-bottom: 15%;
         }
         .space2{
-            margin-bottom: 5%;
+            margin-bottom: 8%;
         }
 
         .first{
@@ -197,6 +202,35 @@ body, html{
                 .fa-solid{
                     color: white;
                 }
+            }
+        }
+
+        #about{
+            display: flex;
+            flex-direction: column;
+
+            background: $color2;
+
+            .txt{
+                display: flex;
+
+                justify-content: space-between;
+
+                font-family: $engF;
+
+                padding: 15px;
+                img{
+                    border-radius: 100%;
+
+                    padding: 10px;
+                }
+            }
+
+            .down{
+                text-align: center;
+                color: white;
+
+                font-family: $engF;
             }
         }
     }
