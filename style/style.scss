@@ -1,0 +1,66 @@
+@import './variables.scss';
+@import './functions.scss';
+
+body, html{
+    scroll-behavior: smooth;
+
+    .content{
+        .nav{
+            display: flex;
+            flex-direction: row-reverse;
+
+            justify-content: space-between;
+            align-items: center;
+
+            height: 70px;
+            width: 100%;
+
+            position: fixed;
+
+            left: 0;
+            top: 0;
+
+            color: white;
+            background: $color1;
+            .image{
+                flex:0;
+                img{
+                    height: 50px;
+
+                    border-radius: 50%;
+
+                    padding: 4px 4px;  
+                }
+            }
+            .txt{
+                flex: 1;
+
+                padding: 4px 2px;
+
+                display: flex;
+                flex-direction: row-reverse;
+
+                justify-content: space-around;
+                align-items: center;
+
+                font-family: $arabicFont;
+            }
+        }
+        .first{
+            @include bgCard('../imgs/img1.png');
+
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+
+            flex-direction: column;
+
+            height: 100vh;  
+            
+            h3{
+                font-family: sans-serif;
+            }
+        }
+    }
+}

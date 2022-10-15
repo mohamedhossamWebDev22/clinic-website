@@ -1,0 +1,47 @@
+body, html {
+  scroll-behavior: smooth;
+}
+body .content .nav, html .content .nav {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  color: white;
+  background: rgb(0, 94, 189);
+}
+body .content .nav .image, html .content .nav .image {
+  flex: 0;
+}
+body .content .nav .image img, html .content .nav .image img {
+  height: 50px;
+  border-radius: 50%;
+  padding: 4px 4px;
+}
+body .content .nav .txt, html .content .nav .txt {
+  flex: 1;
+  padding: 4px 2px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body .content .first, html .content .first {
+  background-image: url("../imgs/img1.png");
+  background-repeat: no-repeat;
+  backbackground-attachment: fixed;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+body .content .first h3, html .content .first h3 {
+  font-family: sans-serif;
+}/*# sourceMappingURL=style.css.map */
